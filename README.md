@@ -12,11 +12,25 @@ This repository contains a dummy notification service used to test a GitHub tech
 - Simple, extractor-friendly project layout and metadata
 
 ## Tech Stack
-- Frontend: React (planned for dashboard/admin UI)
-- Backend: Node.js, JavaScript (CommonJS), FastAPI (planned integration service), Python (planned data-processing utilities)
-- Database: PostgreSQL (planned)
-- DevOps: Docker (planned containerization), AWS (planned deployment target), GitHub Actions (planned CI/CD)
-- Testing: Jest (planned for unit/integration tests)
+- Frontend
+    - React 19.0.0
+- Backend
+    - Node.js 18.0.0+
+    - JavaScript ES2021
+    - FastAPI 0.114.7
+    - Python 3.11.9
+    - dotenv 16.0.0
+    - kafka-node 5.0.0
+    - winston 3.8.2
+- Database
+    - PostgreSQL 16.4
+- DevOps
+    - Docker 27.2.0
+    - AWS SDK for JavaScript 3.745.0
+    - GitHub Actions v4
+    - nodemon 3.0.0
+- Testing
+    - Jest 29.7.0
 
 ## Project Structure
 ```text
